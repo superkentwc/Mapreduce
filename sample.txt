@@ -1,0 +1,5 @@
+MapReduce is a programming model for processing large data sets with a parallel, distributed algorithm on a cluster. 
+A MapReduce program is composed of a Map procedure that performs filtering and sorting, and a Reduce method that performs a summary operation. 
+The model is a specialization of the split-apply-combine strategy for data analysis. 
+MapReduce can be applied to significantly large datasets using a large number of computers. 
+This approach to programming enables scalability across many machines and is the heart of various big data solutions.

@@ -1,0 +1,2 @@
+Hadoop is an ecosystem that includes support for MapReduce operations. 
+It is designed for scaling up from single servers to thousands of machines.

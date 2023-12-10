@@ -1,0 +1,3 @@
+MapReduce simplifies data processing on large clusters. 
+It divides the task into smaller parts and processes them in parallel. 
+MapReduce is widely used in data analysis.

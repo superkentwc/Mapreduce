@@ -1,0 +1,2 @@
+Data analysis often involves processing large amounts of data. 
+MapReduce and Hadoop are popular frameworks for such tasks.
