@@ -1,0 +1,7 @@
+Q1: The Java ForkJoinPool implements a work-stealing scheduling technique. It allows worker threads to execute sub-tasks (forked tasks) concurrently and efficiently by stealing tasks from other threads’ queues when they are idle. This method making parallel execution more efficient by minimizing idle time.
+
+Q2: Data locality in MapReduce refers to the ability to move the computation close to where the actual data resides on the node, instead of moving large data to computation. Unlike some spin lock implementations, MapReduce does not experience significant contention or caching issues in a cache-coherent system, as it mainly operates on independent data chunks. In large distributed systems, data locality significantly reduces network congestion and increases overall efficiency.
+
+Q3: Because the framework is designed to operate on independent data sets (or chunks) in parallel, without shared state or data. This independence avoids the need for thread synchronization.
+
+Q4: One limitation of MapReduce is its two-step processing model (Map and Reduce), which can be less efficient for certain types of data processing tasks that require multiple stages or iterative processing (like graph processing). This limitation is not inherent to all data parallelism techniques
